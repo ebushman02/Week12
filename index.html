@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <div id="new-house" class="jumbotron">
+        <h2>New Person</h2>
+        <input type="text" id="new-first-name" class="form-control" placeholder="Enter Full Name"><br>
+        
+        <button id="create-new-person" class="btn btn-primary form-control" onclick="create()">Create</button>
+    </div>
+    <br>
+    <div id="App"></div>
+    <br>
+ <div class="row" id="Edit">
+<div class=col-3>
+<input type="text" class="form-control" placeholder="Number to Change" id="number">
+</div>
+<div class="col-9">
+<input type="text" class="form-control" placeholder="New Name" id="new-name">
+</div></div>
+<br>
+<button id="update" class="btn btn-primary" onclick="update()">Update</button>
+
+<br><br><br>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> 
+<script src="node_modules/jquery/dist/jquery.js"></script>   
+<script src="index.js"></script>
+</body>
+</html>
